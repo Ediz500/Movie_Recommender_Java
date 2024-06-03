@@ -1,0 +1,14 @@
+*{
+    -fx-base: #424242;
+}
+
+
+
+.star-shape{
+    -fx-text-fill: white;
+    -fx-shape: "M 400 157 L 454 294 L 591 299 L 463 367 L 502 500 L 399 408 L 304 502 L 333 366 L 223 299 L 349 295 Z";
+    -fx-background-color: #ffffff;
+}
+
+
+

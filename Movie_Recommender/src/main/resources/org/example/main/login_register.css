@@ -1,0 +1,59 @@
+.root {
+    -fx-background-color: #04364A;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a9bad3;
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 40px;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #2A629A;
+    -fx-border-color: #FF7F3E;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 5);
+}
+
+.button {
+
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+    -fx-background-color: linear-gradient(rgba(255, 168, 51, 0.91), #ffc400);
+    -fx-text-fill: #003285;
+    -fx-border-radius: 20px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 10);
+    -fx-background-insets: 0,1,2,3;
+    -fx-padding: 10 20 10 20;
+    -fx-transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#ffbb3e, #FF7F3E);
+}
+
+.hyperlink {
+    -fx-text-fill: #FF7F3E;
+    -fx-font-size: 14px;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #E64A19;
+    -fx-underline: true;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #FFDA78;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 218, 120, 0.8), 10, 0, 0, 10);
+}
+
+.label:hover {
+    -fx-text-fill: #FF7F3E;
+}

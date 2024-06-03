@@ -1,0 +1,42 @@
+{
+  "registeredUsers": {
+    "a": {
+      "password": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "name": "a",
+      "surname": "a"
+    },
+    "admin": {
+      "password": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "name": "enes",
+      "surname": "çakmak"
+    },
+    "damla": {
+      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "name": "damla",
+      "surname": "mengüş"
+    },
+    "ediz500": {
+      "password": "ed05b09b8a1f62d37de255df5e212b5de684399cf38e63838faca26832f58be2",
+      "name": "ediz",
+      "surname": "ediz"
+    },
+    "yes": {
+      "password": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "name": "a",
+      "surname": "a"
+    },
+    "deneme": {
+      "password": "25b80b3556ca3a15353dd2fd312062fad27adcf5a1de51b75bdadea1fa8214ab",
+      "name": "Deneme",
+      "surname": "Deneme"
+    }
+  },
+  "userIds": {
+    "a": 97,
+    "admin": 92668751,
+    "damla": 95350021,
+    "ediz500": 1887836955,
+    "yes": 119527,
+    "deneme": 1335399024
+  }
+}

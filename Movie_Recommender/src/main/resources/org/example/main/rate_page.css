@@ -1,0 +1,51 @@
+/* rate-page.css */
+.root {
+    -fx-background-color: #04364A; /* Same dark blue background */
+}
+
+.label {
+    -fx-font-size: 24px; /* Bigger font size for the big label */
+    -fx-font-weight: bold;
+    -fx-text-fill: #a9bad3; /* Same light blue text color */
+    -fx-padding: 20px; /* Extra padding for spacing */
+}
+
+.big-button {
+    -fx-start-margin: 40%;
+    -fx-end-margin: 40%;
+    /*-fx-pref-width: 180px; /* Bigger width for the big button */
+    /*-fx-pref-height: 60px; /* Bigger height for the big button */
+    -fx-background-color: linear-gradient(rgba(255, 168, 51, 0.91), #ffc400); /* Same gradient background */
+    -fx-text-fill: #003285; /* Same dark blue text */
+    -fx-border-radius: 20px; /* Rounded corners */
+    -fx-font-size: 18px; /* Bigger font size for the button text */
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 10); /* Drop shadow */
+    -fx-background-insets: 0,1,2,3;
+    -fx-padding: 10 30 10 30; /* Padding for larger clickable area */
+    -fx-transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.big-button:hover {
+    -fx-background-color: linear-gradient(#ffbb3e, #FF7F3E); /* Same hover effect */
+}
+
+.hyperlink {
+    -fx-text-fill: #FF7F3E; /* Same vibrant orange text for hyperlinks */
+    -fx-font-size: 14px;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #E64A19; /* Same darker orange on hover */
+    -fx-underline: true;
+}
+
+.label:hover {
+    -fx-text-fill: #FF7F3E; /* Orange text on hover for labels */
+}
+
+.star-shape{
+    -fx-text-fill: white;
+    -fx-shape: "M 400 157 L 454 294 L 591 299 L 463 367 L 502 500 L 399 408 L 304 502 L 333 366 L 223 299 L 349 295 Z";
+    -fx-background-color: #ffffff;
+}

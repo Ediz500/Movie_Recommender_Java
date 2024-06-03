@@ -1,0 +1,41 @@
+.root {
+    -fx-background-color: #04364A;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a9bad3;
+    -fx-padding: 10px;
+}
+
+.button {
+    -fx-background-color: #2A629A;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 15px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 10);
+    -fx-background-insets: 0,1,2,3;
+    -fx-padding: 5 10 5 10;
+    -fx-transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: #1E4A70;
+    -fx-transform: scale(1.05);
+}
+
+.hyperlink {
+    -fx-text-fill: #FFDA78;
+    -fx-font-size: 14px;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #FF7F3E;
+    -fx-underline: true;
+}
+
+.label:hover {
+    -fx-text-fill: #FF7F3E;
+}
